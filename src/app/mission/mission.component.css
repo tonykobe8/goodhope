@@ -1,7 +1,11 @@
 body{
 background-color: red;
 }
-
+a{
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  color:blue
+}
 h2{
   font-size: 18px;
   color: white;
