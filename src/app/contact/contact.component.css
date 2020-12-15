@@ -1,0 +1,47 @@
+h2{
+  font-size: 18px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+.topnav {
+  overflow: hidden;
+  background-color: rgba(218, 19, 19, 0.863)
+}
+body{
+  background-color: red;
+}
+.topnav a {
+  float: left;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+   background-color: red
+}
+a{
+  color:blue;
+}
+.topnav a:hover {
+  background-color: rgb(238, 237, 245);
+  color: black;
+}
+
+.topnav a.active {
+  background-color:red;
+  color:red;
+}
+ion-icon {
+  font-size: 24px;
+}
+ion-grid{
+  border-color: white;
+ border-style: solid;
+}
+ion-item{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  border:none;
+  
+}
