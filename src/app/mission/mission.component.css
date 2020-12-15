@@ -2,10 +2,10 @@ body{
 background-color: red;
 }
 a{
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
   color:blue;
-
+  line-height: 30px;
 }
 h2{
   font-size: 18px;
@@ -33,5 +33,5 @@ h2{
 .topnav a.active {
   background-color:red;
   color:red;
-   border:white;}
-
+   border:white;
+}
