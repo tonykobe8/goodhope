@@ -7,12 +7,15 @@ import { AppComponent } from './app.component';
 
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
+import { MissionComponent } from './mission/mission.component';
+import { ObjectiveComponent } from './objective/objective.component';
+import { TargetComponent } from './target/target.component';
 
 
 
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, ContactComponent],
+  declarations: [AppComponent, HomeComponent, ContactComponent, MissionComponent, ObjectiveComponent, TargetComponent],
    imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule,FormsModule],
  
   bootstrap: [AppComponent]

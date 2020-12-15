@@ -1,3 +1,9 @@
+a{
+  
+  color:blue;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+}
 h2{
   font-size: 18px;
   color: white;
@@ -29,10 +35,27 @@ body{
    background-color: red;
    
 }
-a{
-  color:blue;
+.bottomnav {
+  overflow: hidden;
+  background-color: red;
+ 
+}
+.bottomnav a{
+  text-decoration: none;
+  color:rgba(240, 230, 230, 0.904);
   font-family: 'Times New Roman', Times, serif;
-  font-size: 35px;
+  font-size: 20px;
+   
+}
+.bottomnav a.active {
+  background-color:red;
+  color:red;
+   border:white;
+}.bottomnav a:hover {
+  background-color: rgb(238, 237, 245);
+  color: red;
+
+  
 }
 .topnav a:hover {
   background-color: rgb(238, 237, 245);
