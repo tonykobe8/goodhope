@@ -1,11 +1,21 @@
 body{
 background-color: red;
+}h1{
+   background-color:white;
+  color:blue;
+  font-family: 'Times New Roman', Times, serif;
 }
 h2{
   font-size: 18px;
   color: white;
   font-family: 'Times New Roman', Times, serif;
 }
+ul{
+  font-family:'Times New Roman', Times, serif;
+font-size: 22px; 
+color:white
+}
+
 .topnav {
   overflow: hidden;
   background-color: red;
