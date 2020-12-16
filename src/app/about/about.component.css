@@ -1,6 +1,12 @@
 body{
   background-color: red;
-}h2{
+}
+h1{
+font-family: 'Times New Roman', Times, serif;
+  background-color:white;
+  color:blue;
+}
+h2{
   font-size: 18px;
   color: white;
   font-family: 'Times New Roman', Times, serif;
