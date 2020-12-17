@@ -5,6 +5,9 @@ h1{
 font-family: 'Times New Roman', Times, serif;
   background-color:white;
   color:blue;
+}img {
+  height:150px;
+  width: 1500px;
 }
 h2{
   font-size: 18px;
