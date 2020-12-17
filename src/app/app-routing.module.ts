@@ -6,15 +6,15 @@ import { AboutComponent } from './about/about.component';
 import { MissionComponent } from './mission/mission.component';
 import { ObjectiveComponent } from './objective/objective.component';
 import { TargetComponent } from './target/target.component';
-import { DevComponent } from './dev/dev.component';
 
 import { ServiceComponent } from './service/service.component';
+import { DevComponent } from './dev/dev.component';
 
 const routes: Routes = [
   { path: 'tabs', loadChildren: './tabs/tabs.module#TabsPageModule' },
   {path:'' ,component:HomeComponent},{path:'about' ,component:AboutComponent },
- {path:'home' ,component: HomeComponent},{path:'contact' , component:ContactComponent},{path:'mission' , component:MissionComponent},{path:'objective' , component:ObjectiveComponent},{path:'target' , component:TargetComponent},{path:'dev' ,component:DevComponent},
- {path:'service' , component:ServiceComponent}
+ {path:'home' ,component: HomeComponent},{path:'contact' , component:ContactComponent},{path:'mission' , component:MissionComponent},{path:'objective' , component:ObjectiveComponent},{path:'target' , component:TargetComponent},
+ {path:'service' , component:ServiceComponent},{path:'dev' , component:DevComponent}
  
 ];
 @NgModule({
