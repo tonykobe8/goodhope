@@ -11,6 +11,7 @@ constructor(
 public alertController: AlertController) { }
 
   ngOnInit() {
+    
   }
 async apply() {
 const alert = await this.alertController.create({

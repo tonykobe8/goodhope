@@ -13,14 +13,16 @@ import { TargetComponent } from './target/target.component';
 
 import { AboutComponent } from './about/about.component';
 import { ServiceComponent } from './service/service.component';
-import { DeveloperComponent } from './developer/developer.component';
+
+import { MenuComponent } from './menu/menu.component';
+import { DevComponent } from './dev/dev.component';
 
 
 
 
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, ContactComponent, MissionComponent, ObjectiveComponent, TargetComponent, AboutComponent, ServiceComponent, DeveloperComponent],
+  declarations: [MenuComponent,AppComponent, HomeComponent, ContactComponent, MissionComponent, ObjectiveComponent, TargetComponent, AboutComponent, ServiceComponent, DevComponent],
    imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule,FormsModule],
  
   bootstrap: [AppComponent]
