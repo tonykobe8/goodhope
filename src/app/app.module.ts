@@ -10,15 +10,16 @@ import { ContactComponent } from './contact/contact.component';
 import { MissionComponent } from './mission/mission.component';
 import { ObjectiveComponent } from './objective/objective.component';
 import { TargetComponent } from './target/target.component';
-import { DevComponent } from './dev/dev.component';
+
 import { AboutComponent } from './about/about.component';
 import { ServiceComponent } from './service/service.component';
+import { DeveloperComponent } from './developer/developer.component';
 
 
 
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, ContactComponent, MissionComponent, ObjectiveComponent, TargetComponent, DevComponent, AboutComponent, ServiceComponent],
+  declarations: [AppComponent, HomeComponent, ContactComponent, MissionComponent, ObjectiveComponent, TargetComponent, AboutComponent, ServiceComponent, DeveloperComponent],
    imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule,FormsModule],
  
   bootstrap: [AppComponent]
