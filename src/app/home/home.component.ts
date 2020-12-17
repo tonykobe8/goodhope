@@ -17,6 +17,7 @@ const alert = await this.alertController.create({
 cssClass: 'secondary',
 header:'You Want to Apply?',
 message:'Contact : Mrs Ntshangase | 063 210 7053',
+
         buttons: [{ text: 'Cancel', role: 'cancel' },
                   { text: 'ok', handler: (todo) => {
  
