@@ -10,6 +10,12 @@ import { TargetComponent } from './target/target.component';
 import { ServiceComponent } from './service/service.component';
 import { MenuComponent } from './menu/menu.component';
 import { DevComponent } from './dev/dev.component';
+
+
+
+import { TeachersComponent } from './teachers/teachers.component';
+import { SustainComponent } from './sustain/sustain.component';
+
 const routes: Routes = [
   { path: 'tabs', loadChildren: './tabs/tabs.module#TabsPageModule' },
   {path:'' ,component:HomeComponent},
@@ -17,7 +23,7 @@ const routes: Routes = [
   {path:'menu' ,component: MenuComponent},
  {path:'home' ,component: HomeComponent},{path:'contact' , 
  component:ContactComponent},{path:'mission' , component:MissionComponent},{path:'objective' , component:ObjectiveComponent},{path:'target' , component:TargetComponent}, {path:'service' , component:ServiceComponent},
- {path:'dev' , component:DevComponent }
+ {path:'dev' , component:DevComponent },{path:'teachers' , component:TeachersComponent },{path:'sustain' , component:SustainComponent }
  
 ];
 @NgModule({

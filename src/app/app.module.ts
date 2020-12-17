@@ -16,13 +16,15 @@ import { ServiceComponent } from './service/service.component';
 
 import { MenuComponent } from './menu/menu.component';
 import { DevComponent } from './dev/dev.component';
+import { TeachersComponent } from './teachers/teachers.component';
+import { SustainComponent } from './sustain/sustain.component';
 
 
 
 
 
 @NgModule({
-  declarations: [MenuComponent,AppComponent, HomeComponent, ContactComponent, MissionComponent, ObjectiveComponent, TargetComponent, AboutComponent, ServiceComponent, DevComponent],
+  declarations: [MenuComponent,AppComponent, HomeComponent, ContactComponent, MissionComponent, ObjectiveComponent, TargetComponent, AboutComponent, ServiceComponent, DevComponent, TeachersComponent, SustainComponent],
    imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule,FormsModule],
  
   bootstrap: [AppComponent]
