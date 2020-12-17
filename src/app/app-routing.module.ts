@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'tabs', loadChildren: './tabs/tabs.module#TabsPageModule' },
   {path:'' ,component:HomeComponent},{path:'about' ,component:AboutComponent },
  {path:'home' ,component: HomeComponent},{path:'contact' , component:ContactComponent},{path:'mission' , component:MissionComponent},{path:'objective' , component:ObjectiveComponent},{path:'target' , component:TargetComponent},
- {path:'service' , component:ServiceComponent},{path:'developer' , component:DeveloperComponent}
+ {path:'service' , component:ServiceComponent},{path:'developer' , component:DeveloperComponent }
  
 ];
 @NgModule({

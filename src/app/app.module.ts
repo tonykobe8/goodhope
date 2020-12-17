@@ -18,6 +18,7 @@ import { DeveloperComponent } from './developer/developer.component';
 
 
 
+
 @NgModule({
   declarations: [AppComponent, HomeComponent, ContactComponent, MissionComponent, ObjectiveComponent, TargetComponent, AboutComponent, ServiceComponent, DeveloperComponent],
    imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule,FormsModule],
