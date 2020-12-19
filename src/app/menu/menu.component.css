@@ -7,3 +7,29 @@ body{
 }ion-icon {
   font-size: 24px;
 }
+.bottomnav {
+  overflow: hidden;
+  background-color: red;
+ 
+}
+h3{
+    color:white;
+  font-family: 'Times New Roman', Times, serif;
+}
+.bottomnav a{
+  text-decoration: none;
+  color:rgba(240, 230, 230, 0.904);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+   
+}
+.bottomnav a.active {
+  background-color:red;
+  color:red;
+   border:white;
+}.bottomnav a:hover {
+  background-color: rgb(238, 237, 245);
+  color: red;
+
+  
+}
