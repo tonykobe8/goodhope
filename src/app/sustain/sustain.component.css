@@ -1,9 +1,12 @@
 body{
-background-color: red;
+background-color:red;
 }label{
   font-size: 22px;
   color:white;
   font-family: 'Times New Roman', Times, serif;
 }ion-icon {
   font-size: 24px;
+}a{
+   font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
 }
